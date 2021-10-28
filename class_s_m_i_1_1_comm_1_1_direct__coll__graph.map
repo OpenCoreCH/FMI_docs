@@ -1,0 +1,7 @@
+<map id="SMI::Comm::Direct" name="SMI::Comm::Direct">
+<area shape="rect" id="node1" title="Channel that uses the TCPunch TCP NAT Hole Punching Library for connection establishment." alt="" coords="39,824,174,960"/>
+<area shape="rect" id="node2" href="$class_s_m_i_1_1_comm_1_1_peer_to_peer.html" title="Peer&#45;To&#45;Peer channel type." alt="" coords="20,448,193,775"/>
+<area shape="rect" id="node3" href="$class_s_m_i_1_1_comm_1_1_channel.html" title="Interface that defines channel operations. Only provides a few default implementations,..." alt="" coords="32,160,181,399"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,99,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="134,5,189,83"/>
+</map>

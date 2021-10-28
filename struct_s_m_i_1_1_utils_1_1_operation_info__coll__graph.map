@@ -1,0 +1,6 @@
+<map id="SMI::Utils::OperationInfo" name="SMI::Utils::OperationInfo">
+<area shape="rect" id="node1" title="All the information about an operation, passed to the Channel Policy for its decision on which channe..." alt="" coords="55,145,222,223"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,85,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="110,5,167,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="215,5,262,83"/>
+</map>
