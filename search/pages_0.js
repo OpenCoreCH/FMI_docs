@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['serverless_20message_20interface_0',['Serverless Message Interface',['../index.html',1,'']]]
+  ['faas_20message_20interface_0',['FaaS Message Interface',['../index.html',1,'']]]
 ];

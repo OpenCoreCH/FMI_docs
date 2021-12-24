@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SMI: include/utils/ChannelPolicy.h Source File</title>
+<title>FMI: include/utils/ChannelPolicy.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,9 +22,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">SMI<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">FMI<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">Serverless Message Interface</div>
+   <div id="projectbrief">FaaS Message Interface</div>
   </td>
  </tr>
  </tbody>
@@ -71,29 +71,29 @@ $(function() {
   <div class="headertitle"><div class="title">ChannelPolicy.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_channel_policy_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef SMI_CHANNELPOLICY_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SMI_CHANNELPOLICY_H</span></div>
+<a href="_channel_policy_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef FMI_CHANNELPOLICY_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define FMI_CHANNELPOLICY_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_common_8h.html">Common.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;cstddef&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;../comm/Channel.h&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespace_s_m_i_1_1_utils.html">    9</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_s_m_i_1_1_utils.html">SMI::Utils</a> {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_s_m_i_1_1_utils_1_1_channel_policy.html">   11</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_s_m_i_1_1_utils_1_1_channel_policy.html">ChannelPolicy</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespace_f_m_i_1_1_utils.html">    9</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_f_m_i_1_1_utils.html">FMI::Utils</a> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_f_m_i_1_1_utils_1_1_channel_policy.html">   11</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_f_m_i_1_1_utils_1_1_channel_policy.html">ChannelPolicy</a> {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <a class="code hl_function" href="class_s_m_i_1_1_utils_1_1_channel_policy.html#a6479a1072217460836fb62d8ac722209">ChannelPolicy</a>(std::map&lt;std::string, std::shared_ptr&lt;SMI::Comm::Channel&gt;&gt;&amp; channels, <a class="code hl_typedef" href="namespace_s_m_i_1_1_utils.html#a33529e5936ca78fdce4403a279ef4bb4">peer_num</a> num_peers,</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>                      <span class="keywordtype">double</span> faas_price, <a class="code hl_enumeration" href="namespace_s_m_i_1_1_utils.html#af36eaa1457fcd6ba11918da52a754aad">Hint</a> hint);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <a class="code hl_function" href="class_f_m_i_1_1_utils_1_1_channel_policy.html#af8a46a6b2f96d01f54cad1e790d2be3c">ChannelPolicy</a>(std::map&lt;std::string, std::shared_ptr&lt;FMI::Comm::Channel&gt;&gt;&amp; channels, <a class="code hl_typedef" href="namespace_f_m_i_1_1_utils.html#add14eb01bf0abdaa4f594ef3a0ca66d0">peer_num</a> num_peers,</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>                      <span class="keywordtype">double</span> faas_price, <a class="code hl_enumeration" href="namespace_f_m_i_1_1_utils.html#a1d42fd5b694ff9b8d8ea7d5b42d6c8b3">Hint</a> hint);</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        std::string <a class="code hl_function" href="class_s_m_i_1_1_utils_1_1_channel_policy.html#a5defdf5c53cd60faa0bc4cc2b3e6334b">get_channel</a>(<a class="code hl_struct" href="struct_s_m_i_1_1_utils_1_1_operation_info.html">OperationInfo</a> op_info);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        std::string <a class="code hl_function" href="class_f_m_i_1_1_utils_1_1_channel_policy.html#a1cd4f670fc74a8004545c39fe8d15998">get_channel</a>(<a class="code hl_struct" href="struct_f_m_i_1_1_utils_1_1_operation_info.html">OperationInfo</a> op_info);</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_s_m_i_1_1_utils_1_1_channel_policy.html#a46b715709abcae0c3b07ff27dde04b1e">set_hint</a>(<a class="code hl_enumeration" href="namespace_s_m_i_1_1_utils.html#af36eaa1457fcd6ba11918da52a754aad">Hint</a> hint);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_f_m_i_1_1_utils_1_1_channel_policy.html#a1b5080e0e8a995e1bfaf95383f6650c1">set_hint</a>(<a class="code hl_enumeration" href="namespace_f_m_i_1_1_utils.html#a1d42fd5b694ff9b8d8ea7d5b42d6c8b3">Hint</a> hint);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        std::map&lt;std::string, std::shared_ptr&lt;SMI::Comm::Channel&gt;&gt; &amp;channels;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <a class="code hl_typedef" href="namespace_s_m_i_1_1_utils.html#a33529e5936ca78fdce4403a279ef4bb4">peer_num</a> num_peers;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        std::map&lt;std::string, std::shared_ptr&lt;FMI::Comm::Channel&gt;&gt; &amp;channels;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <a class="code hl_typedef" href="namespace_f_m_i_1_1_utils.html#add14eb01bf0abdaa4f594ef3a0ca66d0">peer_num</a> num_peers;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordtype">double</span> faas_price;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_enumeration" href="namespace_s_m_i_1_1_utils.html#af36eaa1457fcd6ba11918da52a754aad">Hint</a> hint;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_enumeration" href="namespace_f_m_i_1_1_utils.html#a1d42fd5b694ff9b8d8ea7d5b42d6c8b3">Hint</a> hint;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordtype">double</span> get_faas_price(<span class="keywordtype">double</span> execution_time);</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    };</div>
@@ -101,16 +101,16 @@ $(function() {
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif </span><span class="comment">//SMI_CHANNELPOLICY_H</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif </span><span class="comment">//FMI_CHANNELPOLICY_H</span></div>
 <div class="ttc" id="a_common_8h_html"><div class="ttname"><a href="_common_8h.html">Common.h</a></div></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_channel_policy_html"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_channel_policy.html">SMI::Utils::ChannelPolicy</a></div><div class="ttdoc">Default channel policy that either selects the fastest or cheapest channel according to the performan...</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.h:11</div></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_channel_policy_html_a46b715709abcae0c3b07ff27dde04b1e"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_channel_policy.html#a46b715709abcae0c3b07ff27dde04b1e">SMI::Utils::ChannelPolicy::set_hint</a></div><div class="ttdeci">void set_hint(Hint hint)</div><div class="ttdoc">Changes the hint that is used by the channel policy.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.cpp:35</div></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_channel_policy_html_a5defdf5c53cd60faa0bc4cc2b3e6334b"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_channel_policy.html#a5defdf5c53cd60faa0bc4cc2b3e6334b">SMI::Utils::ChannelPolicy::get_channel</a></div><div class="ttdeci">std::string get_channel(OperationInfo op_info)</div><div class="ttdoc">Return the ideal channel for the given operation.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.cpp:9</div></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_channel_policy_html_a6479a1072217460836fb62d8ac722209"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_channel_policy.html#a6479a1072217460836fb62d8ac722209">SMI::Utils::ChannelPolicy::ChannelPolicy</a></div><div class="ttdeci">ChannelPolicy(std::map&lt; std::string, std::shared_ptr&lt; SMI::Comm::Channel &gt; &gt; &amp;channels, peer_num num_peers, double faas_price, Hint hint)</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.cpp:6</div></div>
-<div class="ttc" id="anamespace_s_m_i_1_1_utils_html"><div class="ttname"><a href="namespace_s_m_i_1_1_utils.html">SMI::Utils</a></div><div class="ttdoc">Contains various utilities that are used in SMI.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.h:9</div></div>
-<div class="ttc" id="anamespace_s_m_i_1_1_utils_html_a33529e5936ca78fdce4403a279ef4bb4"><div class="ttname"><a href="namespace_s_m_i_1_1_utils.html#a33529e5936ca78fdce4403a279ef4bb4">SMI::Utils::peer_num</a></div><div class="ttdeci">unsigned int peer_num</div><div class="ttdoc">Type for peer IDs / numbers.</div><div class="ttdef"><b>Definition:</b> Common.h:8</div></div>
-<div class="ttc" id="anamespace_s_m_i_1_1_utils_html_af36eaa1457fcd6ba11918da52a754aad"><div class="ttname"><a href="namespace_s_m_i_1_1_utils.html#af36eaa1457fcd6ba11918da52a754aad">SMI::Utils::Hint</a></div><div class="ttdeci">Hint</div><div class="ttdoc">Set by the client, controls the optimization goal of the Channel Policy.</div><div class="ttdef"><b>Definition:</b> Common.h:18</div></div>
-<div class="ttc" id="astruct_s_m_i_1_1_utils_1_1_operation_info_html"><div class="ttname"><a href="struct_s_m_i_1_1_utils_1_1_operation_info.html">SMI::Utils::OperationInfo</a></div><div class="ttdoc">All the information about an operation, passed to the Channel Policy for its decision on which channe...</div><div class="ttdef"><b>Definition:</b> Common.h:28</div></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_channel_policy_html"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_channel_policy.html">FMI::Utils::ChannelPolicy</a></div><div class="ttdoc">Default channel policy that either selects the fastest or cheapest channel according to the performan...</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.h:11</div></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_channel_policy_html_a1b5080e0e8a995e1bfaf95383f6650c1"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_channel_policy.html#a1b5080e0e8a995e1bfaf95383f6650c1">FMI::Utils::ChannelPolicy::set_hint</a></div><div class="ttdeci">void set_hint(Hint hint)</div><div class="ttdoc">Changes the hint that is used by the channel policy.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.cpp:35</div></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_channel_policy_html_a1cd4f670fc74a8004545c39fe8d15998"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_channel_policy.html#a1cd4f670fc74a8004545c39fe8d15998">FMI::Utils::ChannelPolicy::get_channel</a></div><div class="ttdeci">std::string get_channel(OperationInfo op_info)</div><div class="ttdoc">Return the ideal channel for the given operation.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.cpp:9</div></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_channel_policy_html_af8a46a6b2f96d01f54cad1e790d2be3c"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_channel_policy.html#af8a46a6b2f96d01f54cad1e790d2be3c">FMI::Utils::ChannelPolicy::ChannelPolicy</a></div><div class="ttdeci">ChannelPolicy(std::map&lt; std::string, std::shared_ptr&lt; FMI::Comm::Channel &gt; &gt; &amp;channels, peer_num num_peers, double faas_price, Hint hint)</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.cpp:6</div></div>
+<div class="ttc" id="anamespace_f_m_i_1_1_utils_html"><div class="ttname"><a href="namespace_f_m_i_1_1_utils.html">FMI::Utils</a></div><div class="ttdoc">Contains various utilities that are used in FMI.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.h:9</div></div>
+<div class="ttc" id="anamespace_f_m_i_1_1_utils_html_a1d42fd5b694ff9b8d8ea7d5b42d6c8b3"><div class="ttname"><a href="namespace_f_m_i_1_1_utils.html#a1d42fd5b694ff9b8d8ea7d5b42d6c8b3">FMI::Utils::Hint</a></div><div class="ttdeci">Hint</div><div class="ttdoc">Set by the client, controls the optimization goal of the Channel Policy.</div><div class="ttdef"><b>Definition:</b> Common.h:18</div></div>
+<div class="ttc" id="anamespace_f_m_i_1_1_utils_html_add14eb01bf0abdaa4f594ef3a0ca66d0"><div class="ttname"><a href="namespace_f_m_i_1_1_utils.html#add14eb01bf0abdaa4f594ef3a0ca66d0">FMI::Utils::peer_num</a></div><div class="ttdeci">unsigned int peer_num</div><div class="ttdoc">Type for peer IDs / numbers.</div><div class="ttdef"><b>Definition:</b> Common.h:8</div></div>
+<div class="ttc" id="astruct_f_m_i_1_1_utils_1_1_operation_info_html"><div class="ttname"><a href="struct_f_m_i_1_1_utils_1_1_operation_info.html">FMI::Utils::OperationInfo</a></div><div class="ttdoc">All the information about an operation, passed to the Channel Policy for its decision on which channe...</div><div class="ttdef"><b>Definition:</b> Common.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr class="footer"/><address class="footer"><small>&copy; 2021 Roman Böhringer</small></address>
 </body>

@@ -1,8 +1,0 @@
-<map id="SMI::Comm::Channel" name="SMI::Comm::Channel">
-<area shape="rect" id="node1" title="Interface that defines channel operations. Only provides a few default implementations,..." alt="" coords="263,5,413,273"/>
-<area shape="rect" id="node2" href="$class_s_m_i_1_1_comm_1_1_client_server.html" title="Client&#45;Server channel type." alt="" coords="153,351,326,619"/>
-<area shape="rect" id="node5" href="$class_s_m_i_1_1_comm_1_1_peer_to_peer.html" title="Peer&#45;To&#45;Peer channel type." alt="" coords="350,321,523,648"/>
-<area shape="rect" id="node3" href="$class_s_m_i_1_1_comm_1_1_redis.html" title="Channel that uses Redis with the Hiredis client library as storage backend." alt="" coords="5,696,156,876"/>
-<area shape="rect" id="node4" href="$class_s_m_i_1_1_comm_1_1_s3.html" title="Channel that uses AWS S3 as backend and uses the AWS SDK for C++ to access S3." alt="" coords="180,696,331,876"/>
-<area shape="rect" id="node6" href="$class_s_m_i_1_1_comm_1_1_direct.html" title="Channel that uses the TCPunch TCP NAT Hole Punching Library for connection establishment." alt="" coords="369,718,504,854"/>
-</map>

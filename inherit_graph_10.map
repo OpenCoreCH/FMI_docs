@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_s_m_i_1_1_utils_1_1_operation_info.html" title="All the information about an operation, passed to the Channel Policy for its decision on which channe..." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node2" href="$struct_f_m_i_1_1_utils_1_1_timeout.html" title="Custom exception that is thrown on timeouts." alt="" coords="157,5,292,32"/>
 </map>

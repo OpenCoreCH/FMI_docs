@@ -1,6 +1,0 @@
-<map id="SMI::Comm::ClientServer" name="SMI::Comm::ClientServer">
-<area shape="rect" id="node1" title="Client&#45;Server channel type." alt="" coords="81,321,254,589"/>
-<area shape="rect" id="node3" href="$class_s_m_i_1_1_comm_1_1_redis.html" title="Channel that uses Redis with the Hiredis client library as storage backend." alt="" coords="5,637,156,817"/>
-<area shape="rect" id="node4" href="$class_s_m_i_1_1_comm_1_1_s3.html" title="Channel that uses AWS S3 as backend and uses the AWS SDK for C++ to access S3." alt="" coords="180,637,331,817"/>
-<area shape="rect" id="node2" href="$class_s_m_i_1_1_comm_1_1_channel.html" title="Interface that defines channel operations. Only provides a few default implementations,..." alt="" coords="93,5,242,273"/>
-</map>

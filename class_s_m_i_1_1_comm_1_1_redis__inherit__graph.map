@@ -1,5 +1,0 @@
-<map id="SMI::Comm::Redis" name="SMI::Comm::Redis">
-<area shape="rect" id="node1" title="Channel that uses Redis with the Hiredis client library as storage backend." alt="" coords="17,637,167,817"/>
-<area shape="rect" id="node2" href="$class_s_m_i_1_1_comm_1_1_client_server.html" title="Client&#45;Server channel type." alt="" coords="5,321,179,589"/>
-<area shape="rect" id="node3" href="$class_s_m_i_1_1_comm_1_1_channel.html" title="Interface that defines channel operations. Only provides a few default implementations,..." alt="" coords="17,5,167,273"/>
-</map>

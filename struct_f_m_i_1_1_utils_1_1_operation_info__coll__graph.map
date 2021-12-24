@@ -1,0 +1,6 @@
+<map id="FMI::Utils::OperationInfo" name="FMI::Utils::OperationInfo">
+<area shape="rect" id="node1" title="All the information about an operation, passed to the Channel Policy for its decision on which channe..." alt="" coords="53,145,220,223"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,84,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="108,5,165,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="213,5,260,83"/>
+</map>

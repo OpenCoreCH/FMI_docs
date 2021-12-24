@@ -1,0 +1,20 @@
+<map id="include/fmi.h" name="include/fmi.h">
+<area shape="rect" id="node1" title=" " alt="" coords="355,5,451,32"/>
+<area shape="rect" id="node2" href="$_communicator_8h.html" title=" " alt="" coords="345,80,462,107"/>
+<area shape="rect" id="node3" href="$_configuration_8h.html" title=" " alt="" coords="98,229,245,256"/>
+<area shape="rect" id="node8" href="$_channel_8h.html" title=" " alt="" coords="460,229,581,256"/>
+<area shape="rect" id="node17" href="$_channel_policy_8h.html" title=" " alt="" coords="332,155,475,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="216,311,271,338"/>
+<area shape="rect" id="node5" title=" " alt="" coords="295,311,341,338"/>
+<area shape="rect" id="node6" title=" " alt="" coords="297,393,339,420"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,304,140,345"/>
+<area shape="rect" id="node9" href="$_data_8h.html" title=" " alt="" coords="606,311,667,338"/>
+<area shape="rect" id="node13" title=" " alt="" coords="366,311,435,338"/>
+<area shape="rect" id="node14" href="$_function_8h.html" title=" " alt="" coords="459,311,582,338"/>
+<area shape="rect" id="node15" href="$_common_8h.html" title=" " alt="" coords="692,311,819,338"/>
+<area shape="rect" id="node10" title=" " alt="" coords="573,393,631,420"/>
+<area shape="rect" id="node11" title=" " alt="" coords="655,393,725,420"/>
+<area shape="rect" id="node12" title=" " alt="" coords="469,393,548,420"/>
+<area shape="rect" id="node16" title=" " alt="" coords="749,393,828,420"/>
+<area shape="rect" id="node18" title=" " alt="" coords="371,229,436,256"/>
+</map>

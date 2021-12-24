@@ -1,0 +1,8 @@
+<map id="FMI::Comm::ClientServer" name="FMI::Comm::ClientServer">
+<area shape="rect" id="node1" title="Client&#45;Server channel type." alt="" coords="193,461,365,685"/>
+<area shape="rect" id="node2" href="$class_f_m_i_1_1_comm_1_1_channel.html" title="Interface that defines channel operations. Only provides a few default implementations,..." alt="" coords="140,160,288,399"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,97,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="187,5,241,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="312,241,367,318"/>
+<area shape="rect" id="node6" title=" " alt="" coords="415,241,482,318"/>
+</map>

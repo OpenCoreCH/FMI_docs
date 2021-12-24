@@ -1,9 +1,9 @@
 <map id="include/comm/ClientServer.h" name="include/comm/ClientServer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="238,5,430,32"/>
-<area shape="rect" id="node2" href="$_redis_8h.html" title=" " alt="" coords="88,80,241,107"/>
-<area shape="rect" id="node5" href="$_s3_8h.html" title=" " alt="" coords="266,80,402,107"/>
-<area shape="rect" id="node7" href="$_client_server_8cpp.html" title=" " alt="" coords="426,80,607,107"/>
-<area shape="rect" id="node3" href="$_channel_8cpp.html" title=" " alt="" coords="172,155,331,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="239,5,429,32"/>
+<area shape="rect" id="node2" href="$_redis_8h.html" title=" " alt="" coords="90,80,242,107"/>
+<area shape="rect" id="node5" href="$_s3_8h.html" title=" " alt="" coords="267,80,401,107"/>
+<area shape="rect" id="node7" href="$_client_server_8cpp.html" title=" " alt="" coords="425,80,605,107"/>
+<area shape="rect" id="node3" href="$_channel_8cpp.html" title=" " alt="" coords="173,155,330,181"/>
 <area shape="rect" id="node4" href="$_redis_8cpp.html" title=" " alt="" coords="5,155,148,181"/>
-<area shape="rect" id="node6" href="$_s3_8cpp.html" title=" " alt="" coords="355,155,481,181"/>
+<area shape="rect" id="node6" href="$_s3_8cpp.html" title=" " alt="" coords="354,155,479,181"/>
 </map>

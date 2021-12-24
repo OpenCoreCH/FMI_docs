@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SMI: include/utils/Configuration.h Source File</title>
+<title>FMI: include/utils/Configuration.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,9 +22,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">SMI<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">FMI<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">Serverless Message Interface</div>
+   <div id="projectbrief">FaaS Message Interface</div>
   </td>
  </tr>
  </tbody>
@@ -71,8 +71,8 @@ $(function() {
   <div class="headertitle"><div class="title">Configuration.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_configuration_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef SMI_CONFIGURATION_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SMI_CONFIGURATION_H</span></div>
+<a href="_configuration_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef FMI_CONFIGURATION_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define FMI_CONFIGURATION_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
@@ -80,14 +80,14 @@ $(function() {
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;any&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;boost/property_tree/ptree.hpp&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_s_m_i_1_1_utils.html">SMI::Utils</a> {</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_s_m_i_1_1_utils_1_1_configuration.html">   12</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_s_m_i_1_1_utils_1_1_configuration.html">Configuration</a> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_f_m_i_1_1_utils.html">FMI::Utils</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_f_m_i_1_1_utils_1_1_configuration.html">   12</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_f_m_i_1_1_utils_1_1_configuration.html">Configuration</a> {</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="class_s_m_i_1_1_utils_1_1_configuration.html#a1461bd1c55ae35bfc2341484ec0058df">Configuration</a>(<span class="keyword">const</span> std::string&amp; config_path);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="class_f_m_i_1_1_utils_1_1_configuration.html#a3ab7d1a3d02742a49bdf530f1eb03abb">Configuration</a>(<span class="keyword">const</span> std::string&amp; config_path);</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        std::map&lt; std::string, std::pair&lt; std::map&lt;std::string, std::string&gt;, std::map&lt;std::string, std::string&gt; &gt; &gt; <a class="code hl_function" href="class_s_m_i_1_1_utils_1_1_configuration.html#a940736b487dff108486b823df146682b">get_active_channels</a>();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        std::map&lt; std::string, std::pair&lt; std::map&lt;std::string, std::string&gt;, std::map&lt;std::string, std::string&gt; &gt; &gt; <a class="code hl_function" href="class_f_m_i_1_1_utils_1_1_configuration.html#a3ded9fb6783915b3c2c094022cc59aff">get_active_channels</a>();</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_s_m_i_1_1_utils_1_1_configuration.html#ae13b299c8f9b28271abc8a2608f39f52">get_faas_price</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_f_m_i_1_1_utils_1_1_configuration.html#a61edded44cdebbd014b1726f872b5d55">get_faas_price</a>();</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        boost::property_tree::ptree root;</div>
@@ -96,12 +96,12 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif </span><span class="comment">//SMI_CONFIGURATION_H</span></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_configuration_html"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_configuration.html">SMI::Utils::Configuration</a></div><div class="ttdoc">Configuration parser for the SMI JSON configuration file.</div><div class="ttdef"><b>Definition:</b> Configuration.h:12</div></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_configuration_html_a1461bd1c55ae35bfc2341484ec0058df"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_configuration.html#a1461bd1c55ae35bfc2341484ec0058df">SMI::Utils::Configuration::Configuration</a></div><div class="ttdeci">Configuration(const std::string &amp;config_path)</div><div class="ttdef"><b>Definition:</b> Configuration.cpp:8</div></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_configuration_html_a940736b487dff108486b823df146682b"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_configuration.html#a940736b487dff108486b823df146682b">SMI::Utils::Configuration::get_active_channels</a></div><div class="ttdeci">std::map&lt; std::string, std::pair&lt; std::map&lt; std::string, std::string &gt;, std::map&lt; std::string, std::string &gt; &gt; &gt; get_active_channels()</div><div class="ttdoc">Returns the name and a pair with the configuration and model parameters for all channels that are mar...</div><div class="ttdef"><b>Definition:</b> Configuration.cpp:12</div></div>
-<div class="ttc" id="aclass_s_m_i_1_1_utils_1_1_configuration_html_ae13b299c8f9b28271abc8a2608f39f52"><div class="ttname"><a href="class_s_m_i_1_1_utils_1_1_configuration.html#ae13b299c8f9b28271abc8a2608f39f52">SMI::Utils::Configuration::get_faas_price</a></div><div class="ttdeci">double get_faas_price()</div><div class="ttdoc">Returns the configured GiB Second Price for the FaaS platform.</div><div class="ttdef"><b>Definition:</b> Configuration.cpp:40</div></div>
-<div class="ttc" id="anamespace_s_m_i_1_1_utils_html"><div class="ttname"><a href="namespace_s_m_i_1_1_utils.html">SMI::Utils</a></div><div class="ttdoc">Contains various utilities that are used in SMI.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.h:9</div></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif </span><span class="comment">//FMI_CONFIGURATION_H</span></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_configuration_html"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_configuration.html">FMI::Utils::Configuration</a></div><div class="ttdoc">Configuration parser for the FMI JSON configuration file.</div><div class="ttdef"><b>Definition:</b> Configuration.h:12</div></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_configuration_html_a3ab7d1a3d02742a49bdf530f1eb03abb"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_configuration.html#a3ab7d1a3d02742a49bdf530f1eb03abb">FMI::Utils::Configuration::Configuration</a></div><div class="ttdeci">Configuration(const std::string &amp;config_path)</div><div class="ttdef"><b>Definition:</b> Configuration.cpp:8</div></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_configuration_html_a3ded9fb6783915b3c2c094022cc59aff"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_configuration.html#a3ded9fb6783915b3c2c094022cc59aff">FMI::Utils::Configuration::get_active_channels</a></div><div class="ttdeci">std::map&lt; std::string, std::pair&lt; std::map&lt; std::string, std::string &gt;, std::map&lt; std::string, std::string &gt; &gt; &gt; get_active_channels()</div><div class="ttdoc">Returns the name and a pair with the configuration and model parameters for all channels that are mar...</div><div class="ttdef"><b>Definition:</b> Configuration.cpp:12</div></div>
+<div class="ttc" id="aclass_f_m_i_1_1_utils_1_1_configuration_html_a61edded44cdebbd014b1726f872b5d55"><div class="ttname"><a href="class_f_m_i_1_1_utils_1_1_configuration.html#a61edded44cdebbd014b1726f872b5d55">FMI::Utils::Configuration::get_faas_price</a></div><div class="ttdeci">double get_faas_price()</div><div class="ttdoc">Returns the configured GiB Second Price for the FaaS platform.</div><div class="ttdef"><b>Definition:</b> Configuration.cpp:40</div></div>
+<div class="ttc" id="anamespace_f_m_i_1_1_utils_html"><div class="ttname"><a href="namespace_f_m_i_1_1_utils.html">FMI::Utils</a></div><div class="ttdoc">Contains various utilities that are used in FMI.</div><div class="ttdef"><b>Definition:</b> ChannelPolicy.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr class="footer"/><address class="footer"><small>&copy; 2021 Roman Böhringer</small></address>
 </body>

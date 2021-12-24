@@ -1,3 +1,0 @@
-<map id="SMI::Utils::ChannelPolicy" name="SMI::Utils::ChannelPolicy">
-<area shape="rect" id="node1" title="Default channel policy that either selects the fastest or cheapest channel according to the performan..." alt="" coords="5,5,177,112"/>
-</map>

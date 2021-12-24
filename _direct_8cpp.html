@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SMI: src/comm/Direct.cpp File Reference</title>
+<title>FMI: src/comm/Direct.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,9 +22,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">SMI<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">FMI<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">Serverless Message Interface</div>
+   <div id="projectbrief">FaaS Message Interface</div>
   </td>
  </tr>
  </tbody>
@@ -76,30 +76,32 @@ $(function() {
 <code>#include &lt;sys/socket.h&gt;</code><br />
 <code>#include &lt;boost/log/trivial.hpp&gt;</code><br />
 <code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;netinet/tcp.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Direct.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="_direct_8cpp__incl.png" border="0" usemap="#asrc_2comm_2_direct_8cpp" alt=""/></div>
 <map name="asrc_2comm_2_direct_8cpp" id="asrc_2comm_2_direct_8cpp">
-<area shape="rect" title=" " alt="" coords="515,5,659,32"/>
-<area shape="rect" href="_direct_8h.html" title=" " alt="" coords="284,80,411,121"/>
-<area shape="rect" title=" " alt="" coords="435,87,515,114"/>
-<area shape="rect" title=" " alt="" coords="539,87,635,114"/>
-<area shape="rect" title=" " alt="" coords="660,87,797,114"/>
-<area shape="rect" title=" " alt="" coords="821,87,881,114"/>
-<area shape="rect" href="_peer_to_peer_8h.html" title=" " alt="" coords="296,169,399,196"/>
-<area shape="rect" href="_channel_8h.html" title=" " alt="" coords="306,244,389,271"/>
-<area shape="rect" href="_data_8h.html" title=" " alt="" coords="117,319,178,345"/>
-<area shape="rect" title=" " alt="" coords="203,319,257,345"/>
-<area shape="rect" title=" " alt="" coords="282,319,330,345"/>
-<area shape="rect" title=" " alt="" coords="355,319,425,345"/>
-<area shape="rect" href="_function_8h.html" title=" " alt="" coords="450,319,573,345"/>
-<area shape="rect" href="_common_8h.html" title=" " alt="" coords="597,319,722,345"/>
-<area shape="rect" title=" " alt="" coords="5,393,49,420"/>
-<area shape="rect" title=" " alt="" coords="74,393,133,420"/>
-<area shape="rect" title=" " alt="" coords="157,393,228,420"/>
-<area shape="rect" title=" " alt="" coords="252,393,331,420"/>
-<area shape="rect" title=" " alt="" coords="620,393,699,420"/>
+<area shape="rect" title=" " alt="" coords="580,5,724,32"/>
+<area shape="rect" href="_direct_8h.html" title=" " alt="" coords="281,80,407,121"/>
+<area shape="rect" title=" " alt="" coords="431,87,510,114"/>
+<area shape="rect" title=" " alt="" coords="534,87,631,114"/>
+<area shape="rect" title=" " alt="" coords="655,87,790,114"/>
+<area shape="rect" title=" " alt="" coords="815,87,873,114"/>
+<area shape="rect" title=" " alt="" coords="898,87,993,114"/>
+<area shape="rect" href="_peer_to_peer_8h.html" title=" " alt="" coords="294,169,394,196"/>
+<area shape="rect" href="_channel_8h.html" title=" " alt="" coords="303,244,385,271"/>
+<area shape="rect" href="_data_8h.html" title=" " alt="" coords="115,319,176,345"/>
+<area shape="rect" title=" " alt="" coords="201,319,255,345"/>
+<area shape="rect" title=" " alt="" coords="279,319,326,345"/>
+<area shape="rect" title=" " alt="" coords="351,319,420,345"/>
+<area shape="rect" href="_function_8h.html" title=" " alt="" coords="444,319,567,345"/>
+<area shape="rect" href="_common_8h.html" title=" " alt="" coords="591,319,718,345"/>
+<area shape="rect" title=" " alt="" coords="5,393,48,420"/>
+<area shape="rect" title=" " alt="" coords="72,393,131,420"/>
+<area shape="rect" title=" " alt="" coords="155,393,224,420"/>
+<area shape="rect" title=" " alt="" coords="249,393,327,420"/>
+<area shape="rect" title=" " alt="" coords="615,393,694,420"/>
 </map>
 </div>
 </div></div><!-- contents -->

@@ -1,0 +1,3 @@
+<map id="FMI::Utils::ChannelPolicy" name="FMI::Utils::ChannelPolicy">
+<area shape="rect" id="node1" title="Default channel policy that either selects the fastest or cheapest channel according to the performan..." alt="" coords="5,5,177,112"/>
+</map>

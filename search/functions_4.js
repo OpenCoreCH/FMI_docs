@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['finalize_0',['finalize',['../class_s_m_i_1_1_comm_1_1_channel.html#a41a03f410651f99dece782970bb29172',1,'SMI::Comm::Channel::finalize()'],['../class_s_m_i_1_1_comm_1_1_client_server.html#a7202434d3e1759aaf3b5936fb216430c',1,'SMI::Comm::ClientServer::finalize()']]],
-  ['function_1',['Function',['../class_s_m_i_1_1_utils_1_1_function.html#a6724e2cb78d7f6bc192648314a1425a2',1,'SMI::Utils::Function']]]
+  ['finalize_0',['finalize',['../class_f_m_i_1_1_comm_1_1_channel.html#ae8bcfa9ba7e098134f14f2d57edd6c05',1,'FMI::Comm::Channel::finalize()'],['../class_f_m_i_1_1_comm_1_1_client_server.html#a4c0f4bc2ef94d112454d7756b1461e13',1,'FMI::Comm::ClientServer::finalize()']]],
+  ['function_1',['Function',['../class_f_m_i_1_1_utils_1_1_function.html#a5edc105dcbc97ef328aadb71aa5f6dbd',1,'FMI::Utils::Function']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cheap_0',['cheap',['../namespace_s_m_i_1_1_utils.html#af36eaa1457fcd6ba11918da52a754aadaa05957998405d5053944598fc946c71d',1,'SMI::Utils']]]
+  ['cheap_0',['cheap',['../namespace_f_m_i_1_1_utils.html#a1d42fd5b694ff9b8d8ea7d5b42d6c8b3a461a42825170f98a8df58116bff91d4a',1,'FMI::Utils']]]
 ];
