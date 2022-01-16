@@ -113,6 +113,38 @@ Python</h2>
 <div class="line">             fmi.func(fmi.op.custom, <span class="keyword">lambda</span> a, b: 3 * a + b, <span class="keyword">False</span>, <span class="keyword">False</span>),</div>
 <div class="line">             fmi.types(fmi.datatypes.int))</div>
 <div class="line"><span class="keyword">assert</span> id_custom == 5 <span class="comment"># Left-to-right order because of non-assoc. / non-comm.</span></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
+Installation / Compilation</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
+C++</h2>
+<p >To facilitate compiling, there is a Docker image with all necessary dependencies: </p><div class="fragment"><div class="line">docker pull ghcr.io/opencorech/fmi-build-cpp:latest</div>
+</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md5"></a>
+Python</h2>
+<h3><a class="anchor" id="autotoc_md6"></a>
+AWS Lambda Layer</h3>
+<p >The simplest way to use the library are the AWS Lambda layers, available under the following ARNs:</p>
+<ul>
+<li><code>arn:aws:lambda:eu-central-1:386971375191:layer:fmi-python36:1</code></li>
+<li><code>arn:aws:lambda:eu-central-1:386971375191:layer:fmi-python37:1</code></li>
+<li><code>arn:aws:lambda:eu-central-1:386971375191:layer:fmi-python38:1</code></li>
+<li><code>arn:aws:lambda:eu-central-1:386971375191:layer:fmi-python39:1</code></li>
+</ul>
+<p >If you are using CloudFormation, you simply have to reference the ARN with <code>Layers:</code>, a minimal example for Python 3.9 looks like this: </p><div class="fragment"><div class="line">AWSTemplateFormatVersion: &#39;2010-09-09&#39;</div>
+<div class="line">Transform: &#39;AWS::Serverless-2016-10-31&#39;</div>
+<div class="line"> </div>
+<div class="line">Resources:</div>
+<div class="line">  lambdaml:</div>
+<div class="line">    Type: AWS::Serverless::Function</div>
+<div class="line">    Properties:</div>
+<div class="line">      FunctionName: fmi-example</div>
+<div class="line">      Runtime: python3.9</div>
+<div class="line">      Layers:</div>
+<div class="line">        - arn:aws:lambda:eu-central-1:386971375191:layer:fmi-python39:1</div>
+</div><!-- fragment --><p> When using the AWS Management Console, you can add it under <code>Layers</code> -&gt; <code>Add a layer</code> -&gt; <code>Specify an ARN</code>:</p>
+<p ><img src="./aws_layer.png" alt="" width="100%" class="inline"/></p>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Compilation</h3>
+<p >To compile the library by yourself, there are preconfigured Docker images for all Python versions that contain the correct dependencies (<a class="el" href="namespace_f_m_i.html">FMI</a> dependencies, Python headers, and the correct <code>Boost.Python</code>): </p><div class="fragment"><div class="line">docker pull ghcr.io/opencorech/fmi-build-python39:latest</div>
 </div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <hr class="footer"/><address class="footer"><small>&copy; 2021 Roman Böhringer</small></address>

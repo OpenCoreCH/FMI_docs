@@ -1,11 +1,12 @@
 <map id="src/comm/Direct.cpp" name="src/comm/Direct.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="580,5,724,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="651,5,795,32"/>
 <area shape="rect" id="node2" href="$_direct_8h.html" title=" " alt="" coords="281,80,407,121"/>
 <area shape="rect" id="node16" title=" " alt="" coords="431,87,510,114"/>
 <area shape="rect" id="node17" title=" " alt="" coords="534,87,631,114"/>
 <area shape="rect" id="node18" title=" " alt="" coords="655,87,790,114"/>
 <area shape="rect" id="node19" title=" " alt="" coords="815,87,873,114"/>
 <area shape="rect" id="node20" title=" " alt="" coords="898,87,993,114"/>
+<area shape="rect" id="node21" title=" " alt="" coords="1017,87,1076,114"/>
 <area shape="rect" id="node3" href="$_peer_to_peer_8h.html" title=" " alt="" coords="294,169,394,196"/>
 <area shape="rect" id="node4" href="$_channel_8h.html" title=" " alt="" coords="303,244,385,271"/>
 <area shape="rect" id="node5" href="$_data_8h.html" title=" " alt="" coords="115,319,176,345"/>
